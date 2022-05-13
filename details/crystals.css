@@ -49,10 +49,13 @@ p {
     font-size: 1.5em;
     border: solid 1px whitesmoke;
     background-color: rgb(31, 30, 30, .8);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h2 {
     font-size: 2em;
     color: rgb(31, 30, 30);
     background-color: rgba(250, 255, 255, .6);
+    padding: 10px;
 }

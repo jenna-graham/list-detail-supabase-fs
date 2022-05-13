@@ -12,11 +12,9 @@ img {
     padding-right: 10px;
     border: solid 2px rgb(182, 149, 73);
     border-radius: 50%;
-    background: rgba(250, 255, 255, 0.5); 
+    background: rgba(250, 255, 255, 0.4); 
     margin-bottom: 400px;  
 }
-
-
 #main-section  {
     display: flex;
     flex-direction: row;
@@ -43,12 +41,10 @@ h2 {
     color: rgba(250, 255, 255, .9);
     margin-top: 0px;
     margin-bottom: 10px;
-
-    
 }
 p {
     color: rgb(182, 149, 73);
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'Cinzel Decorative', cursive;
     font-weight: bold;
     border: solid 2px;
