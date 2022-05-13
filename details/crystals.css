@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Julius+Sans+One&family=Playfair+Display+SC:ital@1&family=Smokum&display=swap');
+
+img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border: solid 2px whitesmoke;
+    border-radius: 50%;
+    background-color: rgba(250, 255, 255, .6);
+    padding: 20px; 
+
+
+}
+.crystals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+body {
+    background-color: rgb(31, 30, 30);
+    background-image: url(../assets/stone2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: antiquewhite;
+    font-family: 'Cinzel Decorative', cursive;
+    
+
+}
+h1 {
+    font-size: 3em;
+    border: solid 1px whitesmoke;
+    background-color: rgb(31, 30, 30, .8);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p {
+    font-size: 1.5em;
+    border: solid 1px whitesmoke;
+    background-color: rgb(31, 30, 30, .8);
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(31, 30, 30);
+    background-color: rgba(250, 255, 255, .6);
+}

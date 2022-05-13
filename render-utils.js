@@ -3,7 +3,7 @@ export function renderCrystal(crystal) {
     div.classList.add('crystal');
 
     const img = document.createElement('img');
-    img.src = `./assets/${crystal.image}.jpg`;
+    img.src = `./assets/${crystal.image}.png`;
 
     const a = document.createElement('a');
     a.href = `/details/?id=${crystal.id}`;
@@ -21,7 +21,7 @@ export function renderCrystals(crystals) {
     h1.textContent = crystals.name;
 
     const img = document.createElement('img');
-    img.src = `../assets/${crystals.image}.jpg`;
+    img.src = `../assets/${crystals.image}.png`;
 
     const p = document.createElement('p');
     p.textContent = `${crystals.name} is ${crystals.color} and is the stone for the zodiac sign of ${crystals.zodiac}.`;
